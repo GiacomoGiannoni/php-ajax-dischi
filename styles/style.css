@@ -1,0 +1,10 @@
+:root{
+    --ms_headerBG : #2e3a46;
+    --ms_mainBG: #1e2d3b;
+    --ms_subColor : #75797f;
+}
+
+.my_header {
+    background-color: var(--ms_headerBG);
+    height: 70px;
+}
