@@ -15,8 +15,22 @@
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/2048px-Spotify_logo_without_text.svg.png" alt="spotify logo">
         </header>
 
-        <main>
-
+        <main class="my_main">
+            <div class="container-lg py-5">
+                <div>
+                    <div class="row">
+                        <?php include '../database.php' ?>
+                        <?php foreach($albums as $album) { ?>
+                            <div class="col-2 my_card p-3 d-flex flex-column align-items-center mx-3 mb-4">
+                                <img class="img-fluid mb-3" src="<?php echo $album['poster']?>" alt="object.poster">
+                                <h3 class="text-white text-uppercase mb-2 fs-5 text-center"><?php echo $album['title']?></h3>
+                                <span><?php echo $album['author']?></span>
+                                <span><?php echo $album['year']?></span>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
         </main>
     </body>
 </html>

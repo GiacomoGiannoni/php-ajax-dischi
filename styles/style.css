@@ -8,3 +8,17 @@
     background-color: var(--ms_headerBG);
     height: 70px;
 }
+
+.my_main {
+    background-color: var(--ms_mainBG);
+    height: 100%;
+}
+
+.my_card {
+    background-color: var(--ms_headerBG);
+    height: 400px;
+}
+
+.my_card span {
+    color: var(--ms_subColor);
+}
