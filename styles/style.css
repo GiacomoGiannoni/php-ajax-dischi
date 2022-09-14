@@ -26,3 +26,8 @@
 #app{
     overflow-y: hidden;
 }
+
+select {
+    padding: 6px;
+    border-radius: 5px;
+}
