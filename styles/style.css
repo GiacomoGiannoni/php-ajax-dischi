@@ -22,3 +22,7 @@
 .my_card span {
     color: var(--ms_subColor);
 }
+
+#app{
+    overflow-y: hidden;
+}

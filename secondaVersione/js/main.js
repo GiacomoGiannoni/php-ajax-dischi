@@ -1,4 +1,4 @@
-const app = new vue({
+const app = new Vue({
     el: '#app',
     data: {
         albums: [],
